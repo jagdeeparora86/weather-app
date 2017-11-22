@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" ng-model="home.city" placeholder="Search"/>
+                </div>
+                <button type="submit" ng-click="updateWeather()" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-body ">
+                    {{weatherDetail.main.temp}}
+                    <span><img class="pull-left" src="{{iconUrl}}" alt=""><h2>{{weatherDetail.name}}</h2></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <h4>5 day forecast</h4>
+    <div ui-view="forecast"></div>
+</div>

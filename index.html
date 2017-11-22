@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="weatherApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+</head>
+<body>
+    <div ui-view></div>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="app/config-router.js"></script>
+
+    <!--Service-->
+    <script src="app/services/weather-service.js"></script>
+
+    <!--Constants-->
+    <script src="app/constants/wAppConstants.js"></script>
+
+    <!-- controllers -->
+    <script src="app/home/home-controller.js"></script>
+    <script src="app/home/home.forecast-controller.js"></script>
+    <style>
+        table tr td:first-child {
+            border: 1px solid darkgrey;
+            box-shadow: 10px 5px 5px
+        }
+    </style>
+</body>
+
+</html>
