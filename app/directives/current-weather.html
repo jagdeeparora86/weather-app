@@ -1,0 +1,50 @@
+<div id="current" class="panel panel-primary">
+    <div class="panel-body ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                    <div style="margin-left: 4px">
+                        <h3>{{weatherDetail.name}}, {{weatherDetail.sys.country}}</h3>
+                    </div>
+                    <div style="margin-left:8px;">
+                        <div><h4>{{weatherDetail.dt * 1000 | date:'EEEE, h:mma'}}</h4></div>
+                        <div><h5>{{weatherDetail.weather[0].description | uppercase}}</h5></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="pull-right">
+                        <div>
+                            <h5>Sunrise : {{weatherDetail.sys.sunrise * 1000 | date: 'h:mm a'}}</h5>
+                        </div>
+                        <div>
+                            <h5>Sunset: {{weatherDetail.sys.sunset * 1000 | date: 'h:mm a'}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div>
+                        <img class="pull-left"
+                             src="{{weatherDetail.weather[0].icon | iconUrlFilter}}"
+                             alt="{{weatherDetail.weather[0].description}}">
+                        <div class="pull-left" style="padding-left: 10px; margin-top: -15px;">
+                            <div class="pull-left" style="font-size: 54px; margin-top: -3px;">
+                                <span style="display: inline">{{weatherDetail.main.temp}}
+                                    <span style="font-size:40px;">
+                                        <span style="top: -10px; position: relative; margin-left: -15px;">&deg;</span>
+                                        {{weatherDetail.main.temp | unitFilter}}</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div><label>Precipitation: {{weatherDetail.clouds.all}}%</label></div>
+                    <div><label>Wind: {{weatherDetail.wind.speed}}</label></div>
+                    <div><label>Humidity: {{weatherDetail.main.humidity}}%</label></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

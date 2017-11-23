@@ -1,28 +1,26 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-            <form class="navbar-form navbar-left">
+            <form class="navbar-form"  name="weatherForm">
                 <div class="form-group">
-                    <input type="text" class="form-control" ng-model="home.city" placeholder="Search"/>
+                    <input type="text" class="form-control" required ng-model="home.city" placeholder="Enter City or Zip Code"/>
                 </div>
-                <button type="submit" ng-click="updateWeather()" class="btn btn-default">Submit</button>
+                <button type="submit" ng-disabled="weatherForm.$invalid" ng-click="updateWeather()" class="btn btn-default">Search</button>
+
+                    <span>
+                    <button ng-click="updateUnit()"
+                            ng-class="unitStatus ? 'btn-primary' : 'btn-default'">&deg;F</button>
+                    <button ng-click="updateUnit()"
+                            ng-class="unitStatus ? 'btn-default' : 'btn-primary'">&deg;C</button>
+                </span>
             </form>
         </div>
     </div>
 </nav>
 <div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="panel panel-primary">
-                <div class="panel-body ">
-                    {{weatherDetail.main.temp}}
-                    <span><img class="pull-left" src="{{iconUrl}}" alt=""><h2>{{weatherDetail.name}}</h2></span>
-                </div>
-            </div>
-        </div>
-    </div>
+    <current-weather icon-url="home.iconUrl" ng-if="weatherDetail" weather-detail="weatherDetail"></current-weather>
 </div>
-<div class="container-fluid">
-    <h4>5 day forecast</h4>
+<br>
+<div class="container-fluid" ng-show="weatherDetail">
     <div ui-view="forecast"></div>
 </div>

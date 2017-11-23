@@ -1,7 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="593e2ab7-ddc8-4ace-8ab6-33d9ed95a87d" name="Default" comment="" />
+    <list default="true" id="593e2ab7-ddc8-4ace-8ab6-33d9ed95a87d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/DOMEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/nodeName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/readyException.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/stripAndCollapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHiddenWithinTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred/exceptionHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/ObjectFunctionString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/fnToString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/getProto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rnothtmlwhite.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/constants/wAppConstants.js" afterPath="$PROJECT_DIR$/app/constants/wAppConstants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home-controller.js" afterPath="$PROJECT_DIR$/app/home/home-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.forecast-controller.js" afterPath="$PROJECT_DIR$/app/home/home.forecast-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.forecast.html" afterPath="$PROJECT_DIR$/app/home/home.forecast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.html" afterPath="$PROJECT_DIR$/app/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/weather-service.js" afterPath="$PROJECT_DIR$/app/services/weather-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/bower_components/jquery/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/README.md" afterPath="$PROJECT_DIR$/bower_components/jquery/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/adjustCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/showHide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/swap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/acceptData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataPriv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataUser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/focusin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/trigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/buildFragment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/setGlobalEval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rscriptType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rtagName.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/wrapMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/dir.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/siblings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/documentElement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/rcssNum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="weatherApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +150,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            <state relative-caret-position="264">
+              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -36,33 +163,11 @@
       <file leaf-file-name="weather-service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/weather-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="435">
+              <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wAppConstants.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/constants/wAppConstants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config-router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config-router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="29" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,8 +175,8 @@
       <file leaf-file-name="home.forecast.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/home/home.forecast.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,8 +185,8 @@
       <file leaf-file-name="home.forecast-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/home/home.forecast-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -89,12 +194,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="87" lean-forward="false" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+              <folding>
+                <element signature="e#660#665#0" expanded="true" />
+                <element signature="e#810#815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="current-weather.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/directives/current-weather.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#1871#1876#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forecast-weather.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/directives/forecast-weather.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#1033#1038#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forecastWeather-directive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/directives/forecastWeather-directive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,11 +256,21 @@
       <file leaf-file-name="home-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/home/home-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/filters/filters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,6 +285,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>filt</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -128,15 +300,21 @@
         <option value="$PROJECT_DIR$/bower_components/angular/.bower.json" />
         <option value="$PROJECT_DIR$/bower_components/angular/package.json" />
         <option value="$PROJECT_DIR$/bower_components/angular/bower.json" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app/constants/wAppConstants.js" />
         <option value="$PROJECT_DIR$/app/config-router.js" />
-        <option value="$PROJECT_DIR$/app/home/home.forecast-controller.js" />
-        <option value="$PROJECT_DIR$/app/home/home.html" />
-        <option value="$PROJECT_DIR$/app/home/home-controller.js" />
+        <option value="$PROJECT_DIR$/app/directives/currentWeather.js" />
+        <option value="$PROJECT_DIR$/app/directives/forecastWeather-directive.js" />
         <option value="$PROJECT_DIR$/app/services/weather-service.js" />
         <option value="$PROJECT_DIR$/app/home/home.forecast.html" />
+        <option value="$PROJECT_DIR$/app/services/notifier.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/constants/wAppConstants.js" />
+        <option value="$PROJECT_DIR$/app/home/home.forecast-controller.js" />
+        <option value="$PROJECT_DIR$/app/filters/filters.js" />
+        <option value="$PROJECT_DIR$/app/directives/current-weather.html" />
+        <option value="$PROJECT_DIR$/app/directives/forecast-weather.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/home/home-controller.js" />
+        <option value="$PROJECT_DIR$/app/home/home.html" />
       </list>
     </option>
   </component>
@@ -149,17 +327,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="837" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="height" value="848" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -176,32 +344,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weatherApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherApp" />
+              <option name="myItemId" value="weather-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weatherApp" />
+              <option name="myItemId" value="weather-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weatherApp" />
+              <option name="myItemId" value="weather-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weatherApp" />
+              <option name="myItemId" value="weather-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -209,8 +370,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -218,9 +452,10 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cashcall_mac/gitlab/frontend/fe-sp2/src/main/webapp/servicing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -235,6 +470,12 @@
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -262,7 +503,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -297,23 +538,24 @@
       <updated>1511238374474</updated>
       <workItem from="1511238376387" duration="8012000" />
       <workItem from="1511334442042" duration="13110000" />
+      <workItem from="1511378588071" duration="17332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21122000" />
+    <option name="totallyTimeSpent" value="38454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="837" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2248062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22430556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32862645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -324,6 +566,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -343,129 +588,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/weather-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/constants/wAppConstants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config-router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/home-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/.bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/city.list.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/constants/wAppConstants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
@@ -475,25 +617,23 @@
     <entry file="file://$PROJECT_DIR$/app/config-router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="29" />
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/home-controller.js">
+    <entry file="file://$PROJECT_DIR$/app/home/home.forecast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/weather-service.js">
+    <entry file="file://$PROJECT_DIR$/app/home/home.forecast-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="495">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
@@ -503,15 +643,188 @@
     <entry file="file://$PROJECT_DIR$/app/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/home.forecast-controller.js">
+    <entry file="file://$PROJECT_DIR$/app/home/home-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/weather-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/constants/wAppConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-605">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/city.list.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/currentWeather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/toastr/toastr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/notifier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/constants/wAppConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/weather-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
@@ -520,17 +833,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/home/home.forecast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/forecastWeather-directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/forecast-weather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1033#1038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home.forecast-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/current-weather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1871#1876#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="264">
+          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="87" lean-forward="false" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+          <folding>
+            <element signature="e#660#665#0" expanded="true" />
+            <element signature="e#810#815#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

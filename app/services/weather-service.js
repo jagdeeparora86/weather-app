@@ -4,33 +4,34 @@
 (function(){
     app.factory("weatherService", WeatherService);
 
-    WeatherService.$inject = ['$http'];
-    function WeatherService($http){
+    WeatherService.$inject = ['$http', 'notifier'];
+    function WeatherService($http, notifier){
         var svc = {};
         svc.getCurrent = getCurrent;
         svc.getForecast = getForecast;
         svc.getHistory = getHistory;
+        svc.unit = "imperial";
 
         var apikey = "944b98b3eefa1fd8db29bc603877a609";
         var baseUrl = "https://api.openweathermap.org/data/2.5";
 
-        function getCurrent(name){
-            var url = baseUrl + "/weather?q=" + name + "&units=imperial&appid=" + apikey;
+        function getCurrent(name, type){
+            var url = baseUrl + "/weather?" + type + "=" + name + "&units=" + svc.unit + "&appid=" + apikey;
             return $http.get(url)
                 .then(function(result){
                     return result.data;
-                }, function(data){
-                    console.log("handle Error here");
+                }, function(result){
+                    notifier.errorInfo(result.data.message, "City Not Found!");
                 })
         }
 
-        function getForecast(name){
-            var url = baseUrl + "/forecast?q=" + name + "&units=imperial&appid=" + apikey;
+        function getForecast(name, type){
+            var url = baseUrl + "/forecast?" + type + "=" + name + "&units=" + svc.unit + "&appid=" + apikey;
             return $http.get(url)
                 .then(function(result){
                     return result.data;
-                },function(data){
-                    console.log("Add error handling");
+                },function(result){
+                    notifier.errorInfo(result.data.message, "City Not Found!");
                 })
         }
 

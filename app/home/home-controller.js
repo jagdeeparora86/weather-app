@@ -8,46 +8,39 @@
 
     HomeController.$inject = ['$scope', 'weatherService', 'wAppConstants'];
     function HomeController($scope, weatherService, wAppConstants){
-        $scope.test = "Testing Done";
         $scope.updateWeather = updateWeather;
+        $scope.updateUnit = updateUnit;
         var baseIconUrl = wAppConstants.base_img_icon;
         $scope.home = {};
-        $scope.home.city = "Milpitas";
+        $scope.unitStatus = true; //For fahrenheit
 
         function updateWeather(){
-            weatherService.getCurrent($scope.home.city)
+            var type;
+            if ($scope.home.city.match(/^\d/)) {
+                type = "zip";
+            }
+            else {
+                type = "q";
+            }
+            weatherService.getCurrent($scope.home.city, type)
                 .then(function(result){
                     $scope.weatherDetail  = result;
-                    $scope.iconUrl= baseIconUrl + result.weather[0].icon + ".png";
-                    $scope.home.getFiveDayForecast();
+                    $scope.home.iconUrl= baseIconUrl + result.weather[0].icon + ".png";
+                    $scope.home.getFiveDayForecast(type);
                 })
         }
 
-        $scope.weatherDetail = {
-            "coord": {"lon": -121.91, "lat": 37.43},
-            "weather": [{"id": 701, "main": "Mist", "description": "mist", "icon": "50n"}, {
-                "id": 741,
-                "main": "Fog",
-                "description": "fog",
-                "icon": "50n"
-            }],
-            "base": "stations",
-            "main": {"temp": 286.25, "pressure": 1021, "humidity": 93, "temp_min": 284.15, "temp_max": 288.15},
-            "visibility": 16093,
-            "wind": {"speed": 2.1, "deg": 130},
-            "clouds": {"all": 1},
-            "dt": 1511337780,
-            "sys": {
-                "type": 1,
-                "id": 479,
-                "message": 0.175,
-                "country": "US",
-                "sunrise": 1511362509,
-                "sunset": 1511398351
-            },
-            "id": 5373327,
-            "name": "Milpitas",
-            "cod": 200
+        function updateUnit(){
+            if($scope.unitStatus){
+                weatherService.unit = "metric";
+            }
+            else{
+                weatherService.unit = "imperial";
+            }
+            $scope.unitStatus = !$scope.unitStatus;
+            if($scope.home.city){
+                $scope.updateWeather();
+            }
         }
     }
 })()

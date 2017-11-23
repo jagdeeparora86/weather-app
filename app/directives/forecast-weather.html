@@ -1,0 +1,33 @@
+<div ng-if="day" class="panel panel-info">
+    <div class="panel-info" style="background-color: #337ab7;">
+        <div style="color: white;padding: 10px;">
+            <h4>{{day[0].dt * 1000 | date: 'EEEE, MMM d, y'}}</h4>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Time</th>
+            <th>Description</th>
+            <th>Temp</th>
+            <th>Precip</th>
+            <th>Wind</th>
+            <th>Humidity</th>
+        </tr>
+        </thead>
+        <tr ng-repeat="hour in day">
+            <td>{{hour.dt * 1000 | date: 'h:mma'}}</td>
+            <td>{{hour.weather[0].description | uppercase}}
+                <span style="margin-top: -10px; float: left;">
+                        <img class="pull-left"
+                             src="{{hour.weather[0].icon | iconUrlFilter}}"
+                             alt="{{weatherDetail.weather[0].description}}" width="35px" height="35px">
+                        </span>
+            </td>
+            <td>{{hour.main.temp}} &deg; {{hour.main.temo | unitFilter}}</td>
+            <td>{{hour.clouds.all}} %</td>
+            <td>{{hour.wind.speed}}</td>
+            <td>{{hour.main.humidity}}%</td>
+        </tr>
+    </table>
+</div>

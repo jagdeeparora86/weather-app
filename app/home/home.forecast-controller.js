@@ -8,10 +8,10 @@
     ForeCastController.$inject = ['$scope', 'weatherService'];
     function ForeCastController($scope, weatherService){
         $scope.home.getFiveDayForecast = getFiveDayForecast;
-        var days = new Map();
 
-        function getFiveDayForecast(){
-            weatherService.getForecast($scope.home.city)
+        function getFiveDayForecast(type){
+            console.log(type);
+            weatherService.getForecast($scope.home.city, type)
                 .then(function(result){
                     $scope.forecastDetails = result;
                     $scope.daysWeather = getWeatherByDays(result.list);
@@ -31,6 +31,7 @@
             return days;
         }
     }
+
 })()
 
 

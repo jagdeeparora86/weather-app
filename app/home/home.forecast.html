@@ -1,30 +1,6 @@
 <div class="row">
-    <div class="col-md-6" ng-repeat="day in daysWeather">
-        <div class="panel panel-info">
-            <div class="panel-info">
-                <div class="btn btn-primary">{{day[0].dt * 1000 | date: 'MMM d, y'}}</div>
-            </div>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th>Time</th>
-                    <th>Description</th>
-                    <th>Temp</th>
-                    <th>Precip</th>
-                    <th>Wind</th>
-                    <th>Humidity</th>
-                </tr>
-                </thead>
-                <tr ng-repeat="hour in day">
-                    <td>{{hour.dt * 1000 | date: 'h:mma'}}</td>
-                    <td>{{hour.weather[0].description}}</td>
-                    <td>{{hour.main.temp}} &deg;</td>
-                    <td>{{hour.clouds.all}} %</td>
-                    <td>{{hour.wind.speed}}</td>
-                    <td>{{hour.main.humidity}}%</td>
-                </tr>
-            </table>
-        </div>
+    <div ng-if="daysWeather" class="col-md-6" ng-repeat="day in daysWeather">
+        <forecast-weather day="day"></forecast-weather>
     </div>
 </div>
 

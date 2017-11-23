@@ -3,32 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather APP</title>
+    <!--BootStrap css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Toastr css, Using for notification -->
+    <link rel="stylesheet" href="bower_components/toastr/toastr.css">
+    <!-- Jquery -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/toastr/toastr.min.js"></script>
+
+
+
+
 
 </head>
 <body>
     <div ui-view></div>
+
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 
+    <!--App and configuraion -->
     <script src="app.js"></script>
     <script src="app/config-router.js"></script>
 
-    <!--Service-->
-    <script src="app/services/weather-service.js"></script>
+    <!--Services-->
 
+    <script src="app/services/weather-service.js"></script>
     <!--Constants-->
     <script src="app/constants/wAppConstants.js"></script>
-
     <!-- controllers -->
     <script src="app/home/home-controller.js"></script>
     <script src="app/home/home.forecast-controller.js"></script>
+    <!--Directives -->
+    <script src="app/directives/currentWeather.js"></script>
+    <script src="app/directives/forecastWeather-directive.js"></script>
+
+
+    <script src="app/services/notifier.js"></script>
+    <!--filters -->
+    <script src="app/filters/filters.js"></script>
+
     <style>
         table tr td:first-child {
             border: 1px solid darkgrey;
-            box-shadow: 10px 5px 5px
+            box-shadow: 5px 5px 5px
+        }
+        #current.panel {
+            color: white;
+            background: #337ab7;
+        }
+
+        #current {
+            width: 60%;
+            margin: auto;
+        }
+
+        .navbar-header {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            float: left;
+            background-color: #31708f;
         }
     </style>
 </body>
